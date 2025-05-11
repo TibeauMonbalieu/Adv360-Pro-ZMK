@@ -70,11 +70,11 @@
 
         layer_4 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT         &kp POUND  &trans      &trans       &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans           &trans         &trans     &trans      &trans       &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT         &kp POUND  &kp DOLLAR  &kp PERCENT  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &kp CARET        &kp AMPERSAND  &kp STAR   &kp TILDE   &kp MINUS                    &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans           &trans         &trans     &trans                   &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT            &kp POUND       &trans                &trans         &trans                                      &trans  &trans     &trans                 &trans           &trans             &trans     &trans
+&trans  &trans           &trans            &trans          &trans                &trans         &trans                                      &trans  &trans     &trans                 &trans           &trans             &trans     &trans
+&trans  &kp PLUS         &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &trans  &trans  &trans      &trans  &trans  &trans  &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTRK  &kp PIPE
+&trans  &kp CARET        &kp AMPERSAND     &kp STAR        &kp TILDE             &kp MINUS                      &trans      &trans                  &trans     &trans                 &trans           &trans             &trans     &trans
+&trans  &trans           &trans            &trans          &trans                               &trans  &trans  &trans      &trans  &trans  &trans             &trans                 &trans           &trans             &trans     &trans
             >;
         };
     };
